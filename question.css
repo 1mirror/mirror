@@ -1,0 +1,77 @@
+header, footer, section, article {
+	display: block;
+}
+
+body {
+	width: 800px;
+	margin: 10px auto;
+	background: #99CC99;
+	font-family: 'Hiragino Kaku Gothic Pro', Meiryo, Arial, Tahoma, sans-serif;
+	border: 3px solid #888888;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+
+a:link, a:visited {
+	color:#777;
+}
+
+a:hover, a:active {
+	color: #99FF66;
+}
+
+
+p {
+	margin-top: -5px;
+	text-indent: 1em;
+	font-size: 13px;
+}
+
+
+header {
+	padding: 20px 0px 0px 0px;
+	background: #FFFFFF;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+
+header h1 {
+	margin: 0px 0px 18px 10px;
+	font-size: 40px;
+}
+
+section {
+	width: 510px;
+	float: left;
+	font-size: 14px;
+	padding: 30px 260px 60px 30px;
+	background: #FFFFFF;
+  -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+footer {
+	width: 800px;
+	margin: 0px auto;
+	clear: both;
+	background: #3D6497;
+	overflow: hidden;
+	-moz-border-radius-bottomright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+}
+
+footer p{
+	color: #FFFFFF;
+	text-align: center;
+	margin: 10px auto;
+}
+
+article img {
+	border: none;
+	-webkit-box-shadow: 3px 3px 7px #99FF99;
+	-moz-box-shadow: 3px 3px 7px #99FF99;
+}
